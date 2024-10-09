@@ -1,0 +1,123 @@
+@media (max-width: 600px) and (orientation: portrait) {
+
+}
+
+body {
+    background-color: #202632;
+    justify-content: center;
+}
+
+#heading {
+    color: #50f0a2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 4.6px;
+    padding-top: 6.6%;
+    padding-bottom: 0%;
+    margin: auto;
+    font-weight: 900;
+    position: relative;
+    top: 12%;
+}
+
+#container {
+background-color: #313a49;
+width: 37.769%;
+max-width: 713px;
+min-width: 330px;
+min-height: 440px;
+margin: auto;
+margin-top: 225px;
+border: 0px ;
+border-radius: 23px;
+justify-content: center;
+box-sizing: border-box;
+}
+
+
+.line1 {
+    text-align: center;
+    color: #cee3e8;
+    font-family: 'verdana';
+    padding-top: 0%;
+    margin-top: 5.8%;
+    padding-bottom: 0%;
+    margin-bottom: 0;
+}
+
+.line2 {
+    text-align: center;
+    color: #cee3e8;
+    font-family: 'verdana';
+    padding-top: 1.1%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 0;
+}
+
+#container h1 .line3 {
+    text-align: center;
+    color: #cee3e8;
+    font-family: 'verdana';
+    padding-top: 1.3%;
+    margin-top: 0%;
+}
+
+
+.pic1 {
+    background-image: url(images/pattern-divider-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    align-self: center;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 8%;  
+    line-height: 140%;
+
+}
+
+#pattern-divider {
+    zoom: 1;
+    width: 80%;
+    height: auto;
+    display: block;
+    padding-top: 5%;  
+    margin: auto;
+    
+}
+
+#diceContainer {
+    width: 4.42%;
+    min-width: 83px;
+    height: 8.84%;
+    border-radius: 100%;
+    background-color: #53ffab;
+    border: 0px;
+    margin: auto;
+    color: transparent;
+    position: absolute;
+    right: 47.7%;
+    bottom: 29%;
+    
+
+}
+
+
+#diceContainer:active {
+    background-color: #53ffab;
+    box-shadow: -1px -1px 8px 8px  #3fffa2;
+}
+
+#dice {
+    width:33.8%;
+    height:auto;
+    padding: auto;
+    margin: auto;
+    position: inherit;
+    right: 33.7%;
+    bottom: 32%;
+}
+
+
+
