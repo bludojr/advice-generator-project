@@ -1,10 +1,22 @@
-const button = document.getElementById('diceContainer')
+const button = document.getElementById('diceContainer');
+const quote = document.getElementById('quote');
+const quoteId = document.getElementById('quoteId');
+
+
+const getQuote = ()=> {
+    fetch("https://api.adviceslip.com/advice")
+    .then((Resp) => Resp.json())
+    .then((data) => {
+        quote.innerHTML = '"' + data.slip.advice + '"';
+        quoteId.innerHTML = data.slip.id;
+    })
+}
 
 button.addEventListener('click', ()=>{
     button.classList.add('glow');
     button.style.backgroundColor = '#1aff88';
-
-
+    getQuote()
+    
     setTimeout(() => {
         button.classList.remove('glow');
         button.style.backgroundColor = '#53ffab';
@@ -13,17 +25,5 @@ button.addEventListener('click', ()=>{
 
 
 
-async function fetchData() {
-try {
-    let response = await fetch('https://api.quotable.io/random');
 
-    let data = await response.json();
 
-    let dataArray = [];
-    dataArray.push(...data);
-
-    console.log(dataArray);    
-} catch (error) {
-    
-}
-}
